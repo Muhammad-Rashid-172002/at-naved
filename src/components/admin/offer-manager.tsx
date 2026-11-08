@@ -11,7 +11,7 @@ import { FoodImage } from "@/components/ui/food-image";
 import { ConfirmModal, Modal } from "@/components/ui/modal";
 import { EmptyState } from "@/components/ui/misc";
 import { Switch } from "@/components/ui/switch";
-import { foodImages } from "@/config/images";
+import { photo } from "@/config/images";
 import { getRepo } from "@/lib/data";
 import { uid } from "@/lib/id";
 import { effectivePrice } from "@/lib/pricing";
@@ -26,7 +26,7 @@ const TYPES: { value: OfferType; label: string; help: string }[] = [
   { value: "combo", label: "Combo deal", help: "Promotes a deal item (for example Zinger + Fries + Drink). Its price comes from the menu item." },
 ];
 
-const blank = (): Offer => ({ id: "", title: "", description: "", type: "percentage", value: 10, code: "", minOrder: 0, productId: null, image: foodImages.deal, active: true, badge: "" });
+const blank = (): Offer => ({ id: "", title: "", description: "", type: "percentage", value: 10, code: "", minOrder: 0, productId: null, image: photo("deal-zinger-combo"), active: true, badge: "" });
 
 export function OfferManager() {
   const { catalog, refresh, getProduct } = useCatalog();
