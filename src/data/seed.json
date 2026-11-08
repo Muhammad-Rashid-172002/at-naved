@@ -1,0 +1,1426 @@
+{
+  "categories": [
+    {
+      "id": "burgers",
+      "slug": "burgers",
+      "name": "Burgers",
+      "description": "Crispy zingers and juicy smash burgers",
+      "image": "photo:burger-dark",
+      "enabled": true,
+      "sortOrder": 0
+    },
+    {
+      "id": "pizza",
+      "slug": "pizza",
+      "name": "Pizza",
+      "description": "Hand-stretched, loaded and baked hot",
+      "image": "photo:pepperoni-pizza",
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "shawarma",
+      "slug": "shawarma",
+      "name": "Shawarma",
+      "description": "Rolled fresh with garlic sauce",
+      "image": "photo:chicken-shawarma",
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "fried-chicken",
+      "slug": "fried-chicken",
+      "name": "Fried Chicken",
+      "description": "Crunchy, golden and well spiced",
+      "image": "photo:fried-chicken",
+      "enabled": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "fries-sides",
+      "slug": "fries-sides",
+      "name": "Fries & Sides",
+      "description": "The perfect partners for any meal",
+      "image": "photo:loaded-fries",
+      "enabled": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "drinks",
+      "slug": "drinks",
+      "name": "Drinks",
+      "description": "Chilled drinks and thick shakes",
+      "image": "photo:milkshake",
+      "enabled": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "deals",
+      "slug": "deals",
+      "name": "Deals",
+      "description": "Value combos for one or the whole family",
+      "image": "photo:deal-zinger-combo",
+      "enabled": true,
+      "sortOrder": 6
+    }
+  ],
+  "products": [
+    {
+      "id": "classic-zinger",
+      "categoryId": "burgers",
+      "name": "Classic Zinger Burger",
+      "description": "Crispy hand-breaded chicken fillet, crunchy lettuce and our signature mayo in a toasted sesame bun.",
+      "price": 399,
+      "salePrice": null,
+      "image": "photo:classic-zinger",
+      "available": true,
+      "featured": true,
+      "rating": 4.8,
+      "preparationTime": 12,
+      "sortOrder": 0,
+      "variants": [
+        {
+          "id": "classic-zinger-v-mild",
+          "name": "Mild",
+          "priceDelta": 0
+        },
+        {
+          "id": "classic-zinger-v-hot",
+          "name": "Spicy",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "classic-zinger-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        },
+        {
+          "id": "classic-zinger-a-sauce",
+          "name": "Extra Sauce",
+          "price": 30
+        },
+        {
+          "id": "classic-zinger-a-chicken",
+          "name": "Extra Chicken",
+          "price": 120
+        },
+        {
+          "id": "classic-zinger-a-jalapeno",
+          "name": "Jalapeños",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "zinger-cheese",
+      "categoryId": "burgers",
+      "name": "Cheese Burger",
+      "description": "Crispy zinger fillet under a double layer of melted cheddar, pickles and house chilli sauce.",
+      "price": 469,
+      "salePrice": null,
+      "image": "photo:cheese-burger",
+      "available": true,
+      "featured": false,
+      "rating": 4.7,
+      "preparationTime": 12,
+      "sortOrder": 1,
+      "variants": [
+        {
+          "id": "zinger-cheese-v-mild",
+          "name": "Mild",
+          "priceDelta": 0
+        },
+        {
+          "id": "zinger-cheese-v-hot",
+          "name": "Spicy",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "zinger-cheese-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        },
+        {
+          "id": "zinger-cheese-a-sauce",
+          "name": "Extra Sauce",
+          "price": 30
+        },
+        {
+          "id": "zinger-cheese-a-chicken",
+          "name": "Extra Chicken",
+          "price": 120
+        },
+        {
+          "id": "zinger-cheese-a-jalapeno",
+          "name": "Jalapeños",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "double-decker",
+      "categoryId": "burgers",
+      "name": "Double Decker Zinger",
+      "description": "Two crispy fillets, double cheese, jalapeños and smoky sauce stacked high.",
+      "price": 649,
+      "salePrice": 599,
+      "image": "photo:double-decker",
+      "available": true,
+      "featured": true,
+      "rating": 4.9,
+      "preparationTime": 15,
+      "sortOrder": 2,
+      "variants": [
+        {
+          "id": "double-decker-v-mild",
+          "name": "Mild",
+          "priceDelta": 0
+        },
+        {
+          "id": "double-decker-v-hot",
+          "name": "Spicy",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "double-decker-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        },
+        {
+          "id": "double-decker-a-sauce",
+          "name": "Extra Sauce",
+          "price": 30
+        },
+        {
+          "id": "double-decker-a-chicken",
+          "name": "Extra Chicken",
+          "price": 120
+        },
+        {
+          "id": "double-decker-a-jalapeno",
+          "name": "Jalapeños",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "chicken-patty",
+      "categoryId": "burgers",
+      "name": "Crispy Chicken Burger",
+      "description": "Golden crumbed chicken breast, crisp iceberg, tomato and creamy garlic mayo in a brioche bun.",
+      "price": 349,
+      "salePrice": null,
+      "image": "photo:crispy-chicken-burger",
+      "available": true,
+      "featured": false,
+      "rating": 4.4,
+      "preparationTime": 10,
+      "sortOrder": 3,
+      "variants": [],
+      "addons": [
+        {
+          "id": "chicken-patty-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        },
+        {
+          "id": "chicken-patty-a-sauce",
+          "name": "Extra Sauce",
+          "price": 30
+        },
+        {
+          "id": "chicken-patty-a-chicken",
+          "name": "Extra Chicken",
+          "price": 120
+        },
+        {
+          "id": "chicken-patty-a-jalapeno",
+          "name": "Jalapeños",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "beef-smash",
+      "categoryId": "burgers",
+      "name": "Double Beef Burger",
+      "description": "Two smashed beef patties, double cheddar, caramelised onions and our tangy burger sauce.",
+      "price": 699,
+      "salePrice": null,
+      "image": "photo:double-beef-burger",
+      "available": true,
+      "featured": true,
+      "rating": 4.6,
+      "preparationTime": 14,
+      "sortOrder": 4,
+      "variants": [],
+      "addons": [
+        {
+          "id": "beef-smash-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        },
+        {
+          "id": "beef-smash-a-sauce",
+          "name": "Extra Sauce",
+          "price": 30
+        },
+        {
+          "id": "beef-smash-a-chicken",
+          "name": "Extra Chicken",
+          "price": 120
+        },
+        {
+          "id": "beef-smash-a-jalapeno",
+          "name": "Jalapeños",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "tower-burger",
+      "categoryId": "burgers",
+      "name": "Special Loaded Burger",
+      "description": "Our biggest build: zinger fillet, beef patty, hash brown, cheese, jalapeños and smoky sauce.",
+      "price": 849,
+      "salePrice": null,
+      "image": "photo:special-loaded-burger",
+      "available": true,
+      "featured": true,
+      "rating": 4.7,
+      "preparationTime": 16,
+      "sortOrder": 5,
+      "variants": [],
+      "addons": [
+        {
+          "id": "tower-burger-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        },
+        {
+          "id": "tower-burger-a-sauce",
+          "name": "Extra Sauce",
+          "price": 30
+        },
+        {
+          "id": "tower-burger-a-chicken",
+          "name": "Extra Chicken",
+          "price": 120
+        },
+        {
+          "id": "tower-burger-a-jalapeno",
+          "name": "Jalapeños",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "chicken-tikka-pizza",
+      "categoryId": "pizza",
+      "name": "Chicken Tikka Pizza",
+      "description": "Smoky tikka chicken, onions, capsicum and mozzarella on a hand-stretched base.",
+      "price": 650,
+      "salePrice": null,
+      "image": "photo:chicken-tikka-pizza",
+      "available": true,
+      "featured": true,
+      "rating": 4.7,
+      "preparationTime": 20,
+      "sortOrder": 0,
+      "variants": [
+        {
+          "id": "chicken-tikka-pizza-v-s",
+          "name": "Small (7\")",
+          "priceDelta": 0
+        },
+        {
+          "id": "chicken-tikka-pizza-v-m",
+          "name": "Medium (10\")",
+          "priceDelta": 450
+        },
+        {
+          "id": "chicken-tikka-pizza-v-l",
+          "name": "Large (13\")",
+          "priceDelta": 850
+        }
+      ],
+      "addons": [
+        {
+          "id": "chicken-tikka-pizza-a-cheese",
+          "name": "Extra Cheese",
+          "price": 120
+        },
+        {
+          "id": "chicken-tikka-pizza-a-toppings",
+          "name": "Extra Toppings",
+          "price": 150
+        },
+        {
+          "id": "chicken-tikka-pizza-a-dip",
+          "name": "Garlic Dip",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "chicken-fajita-pizza",
+      "categoryId": "pizza",
+      "name": "Chicken Fajita Pizza",
+      "description": "Fajita-spiced chicken, peppers, onions and plenty of cheese.",
+      "price": 650,
+      "salePrice": null,
+      "image": "photo:fajita-pizza",
+      "available": true,
+      "featured": false,
+      "rating": 4.6,
+      "preparationTime": 20,
+      "sortOrder": 1,
+      "variants": [
+        {
+          "id": "chicken-fajita-pizza-v-s",
+          "name": "Small (7\")",
+          "priceDelta": 0
+        },
+        {
+          "id": "chicken-fajita-pizza-v-m",
+          "name": "Medium (10\")",
+          "priceDelta": 450
+        },
+        {
+          "id": "chicken-fajita-pizza-v-l",
+          "name": "Large (13\")",
+          "priceDelta": 850
+        }
+      ],
+      "addons": [
+        {
+          "id": "chicken-fajita-pizza-a-cheese",
+          "name": "Extra Cheese",
+          "price": 120
+        },
+        {
+          "id": "chicken-fajita-pizza-a-toppings",
+          "name": "Extra Toppings",
+          "price": 150
+        },
+        {
+          "id": "chicken-fajita-pizza-a-dip",
+          "name": "Garlic Dip",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "malai-boti-pizza",
+      "categoryId": "pizza",
+      "name": "Pepperoni Pizza",
+      "description": "Halal chicken pepperoni, rich tomato sauce and a generous layer of mozzarella.",
+      "price": 699,
+      "salePrice": null,
+      "image": "photo:pepperoni-pizza",
+      "available": true,
+      "featured": false,
+      "rating": 4.6,
+      "preparationTime": 20,
+      "sortOrder": 2,
+      "variants": [
+        {
+          "id": "malai-boti-pizza-v-s",
+          "name": "Small (7\")",
+          "priceDelta": 0
+        },
+        {
+          "id": "malai-boti-pizza-v-m",
+          "name": "Medium (10\")",
+          "priceDelta": 450
+        },
+        {
+          "id": "malai-boti-pizza-v-l",
+          "name": "Large (13\")",
+          "priceDelta": 850
+        }
+      ],
+      "addons": [
+        {
+          "id": "malai-boti-pizza-a-cheese",
+          "name": "Extra Cheese",
+          "price": 120
+        },
+        {
+          "id": "malai-boti-pizza-a-toppings",
+          "name": "Extra Toppings",
+          "price": 150
+        },
+        {
+          "id": "malai-boti-pizza-a-dip",
+          "name": "Garlic Dip",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "crown-crust-pizza",
+      "categoryId": "pizza",
+      "name": "AT Naveed Special Pizza",
+      "description": "Crown crust stuffed with cheese, topped with tikka, fajita chicken, olives and peppers.",
+      "price": 1199,
+      "salePrice": null,
+      "image": "photo:special-pizza",
+      "available": true,
+      "featured": false,
+      "rating": 4.8,
+      "preparationTime": 25,
+      "sortOrder": 3,
+      "variants": [
+        {
+          "id": "crown-crust-pizza-v-m",
+          "name": "Medium (10\")",
+          "priceDelta": 0
+        },
+        {
+          "id": "crown-crust-pizza-v-l",
+          "name": "Large (13\")",
+          "priceDelta": 450
+        }
+      ],
+      "addons": [
+        {
+          "id": "crown-crust-pizza-a-cheese",
+          "name": "Extra Cheese",
+          "price": 120
+        },
+        {
+          "id": "crown-crust-pizza-a-toppings",
+          "name": "Extra Toppings",
+          "price": 150
+        },
+        {
+          "id": "crown-crust-pizza-a-dip",
+          "name": "Garlic Dip",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "veggie-pizza",
+      "categoryId": "pizza",
+      "name": "Cheese Lovers Pizza",
+      "description": "Mozzarella, cheddar and parmesan over a garlic-butter base. Pure cheese pull.",
+      "price": 599,
+      "salePrice": null,
+      "image": "photo:cheese-lovers-pizza",
+      "available": true,
+      "featured": false,
+      "rating": 4.3,
+      "preparationTime": 18,
+      "sortOrder": 4,
+      "variants": [
+        {
+          "id": "veggie-pizza-v-s",
+          "name": "Small (7\")",
+          "priceDelta": 0
+        },
+        {
+          "id": "veggie-pizza-v-m",
+          "name": "Medium (10\")",
+          "priceDelta": 450
+        },
+        {
+          "id": "veggie-pizza-v-l",
+          "name": "Large (13\")",
+          "priceDelta": 850
+        }
+      ],
+      "addons": [
+        {
+          "id": "veggie-pizza-a-cheese",
+          "name": "Extra Cheese",
+          "price": 120
+        },
+        {
+          "id": "veggie-pizza-a-toppings",
+          "name": "Extra Toppings",
+          "price": 150
+        },
+        {
+          "id": "veggie-pizza-a-dip",
+          "name": "Garlic Dip",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "chicken-shawarma",
+      "categoryId": "shawarma",
+      "name": "Chicken Shawarma",
+      "description": "Juicy spiced chicken, garlic sauce, pickles and salad rolled in fresh pita.",
+      "price": 250,
+      "salePrice": null,
+      "image": "photo:chicken-shawarma",
+      "available": true,
+      "featured": true,
+      "rating": 4.7,
+      "preparationTime": 8,
+      "sortOrder": 0,
+      "variants": [
+        {
+          "id": "chicken-shawarma-v-reg",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "chicken-shawarma-v-large",
+          "name": "Large",
+          "priceDelta": 80
+        }
+      ],
+      "addons": [
+        {
+          "id": "chicken-shawarma-a-cheese",
+          "name": "Extra Cheese",
+          "price": 60
+        },
+        {
+          "id": "chicken-shawarma-a-sauce",
+          "name": "Extra Garlic Sauce",
+          "price": 30
+        },
+        {
+          "id": "chicken-shawarma-a-chicken",
+          "name": "Extra Chicken",
+          "price": 100
+        },
+        {
+          "id": "chicken-shawarma-a-fries",
+          "name": "Fries Inside",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "zinger-shawarma",
+      "categoryId": "shawarma",
+      "name": "Zinger Shawarma",
+      "description": "Crispy zinger strips with spicy mayo and fresh salad, wrapped to go.",
+      "price": 320,
+      "salePrice": null,
+      "image": "photo:zinger-shawarma",
+      "available": true,
+      "featured": false,
+      "rating": 4.6,
+      "preparationTime": 10,
+      "sortOrder": 1,
+      "variants": [
+        {
+          "id": "zinger-shawarma-v-reg",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "zinger-shawarma-v-large",
+          "name": "Large",
+          "priceDelta": 80
+        }
+      ],
+      "addons": [
+        {
+          "id": "zinger-shawarma-a-cheese",
+          "name": "Extra Cheese",
+          "price": 60
+        },
+        {
+          "id": "zinger-shawarma-a-sauce",
+          "name": "Extra Garlic Sauce",
+          "price": 30
+        },
+        {
+          "id": "zinger-shawarma-a-chicken",
+          "name": "Extra Chicken",
+          "price": 100
+        },
+        {
+          "id": "zinger-shawarma-a-fries",
+          "name": "Fries Inside",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "cheese-shawarma",
+      "categoryId": "shawarma",
+      "name": "Cheese Shawarma",
+      "description": "Classic chicken shawarma loaded with melted cheese.",
+      "price": 300,
+      "salePrice": null,
+      "image": "photo:cheese-shawarma",
+      "available": true,
+      "featured": false,
+      "rating": 4.5,
+      "preparationTime": 9,
+      "sortOrder": 2,
+      "variants": [
+        {
+          "id": "cheese-shawarma-v-reg",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "cheese-shawarma-v-large",
+          "name": "Large",
+          "priceDelta": 80
+        }
+      ],
+      "addons": [
+        {
+          "id": "cheese-shawarma-a-cheese",
+          "name": "Extra Cheese",
+          "price": 60
+        },
+        {
+          "id": "cheese-shawarma-a-sauce",
+          "name": "Extra Garlic Sauce",
+          "price": 30
+        },
+        {
+          "id": "cheese-shawarma-a-chicken",
+          "name": "Extra Chicken",
+          "price": 100
+        },
+        {
+          "id": "cheese-shawarma-a-fries",
+          "name": "Fries Inside",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "shawarma-platter",
+      "categoryId": "shawarma",
+      "name": "Special Shawarma Platter",
+      "description": "Sliced chicken shawarma over rice with fries, salad, pickles, garlic sauce and pita.",
+      "price": 549,
+      "salePrice": null,
+      "image": "photo:special-shawarma",
+      "available": true,
+      "featured": false,
+      "rating": 4.7,
+      "preparationTime": 12,
+      "sortOrder": 3,
+      "variants": [],
+      "addons": [
+        {
+          "id": "shawarma-platter-a-cheese",
+          "name": "Extra Cheese",
+          "price": 60
+        },
+        {
+          "id": "shawarma-platter-a-sauce",
+          "name": "Extra Garlic Sauce",
+          "price": 30
+        },
+        {
+          "id": "shawarma-platter-a-chicken",
+          "name": "Extra Chicken",
+          "price": 100
+        },
+        {
+          "id": "shawarma-platter-a-fries",
+          "name": "Fries Inside",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "crispy-chicken-2pc",
+      "categoryId": "fried-chicken",
+      "name": "Fried Chicken Pieces (2 pcs)",
+      "description": "Two pieces of golden, double-breaded chicken marinated overnight.",
+      "price": 450,
+      "salePrice": null,
+      "image": "photo:fried-chicken",
+      "available": true,
+      "featured": true,
+      "rating": 4.6,
+      "preparationTime": 15,
+      "sortOrder": 0,
+      "variants": [
+        {
+          "id": "crispy-chicken-2pc-v-mild",
+          "name": "Mild",
+          "priceDelta": 0
+        },
+        {
+          "id": "crispy-chicken-2pc-v-hot",
+          "name": "Spicy",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "crispy-chicken-2pc-a-dip",
+          "name": "Garlic Mayo Dip",
+          "price": 60
+        },
+        {
+          "id": "crispy-chicken-2pc-a-bun",
+          "name": "Dinner Bun",
+          "price": 40
+        },
+        {
+          "id": "crispy-chicken-2pc-a-fries",
+          "name": "Regular Fries",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "chicken-bucket",
+      "categoryId": "fried-chicken",
+      "name": "Family Bucket (9 pcs)",
+      "description": "Nine pieces of crispy fried chicken. Made for sharing.",
+      "price": 1899,
+      "salePrice": 1749,
+      "image": "photo:chicken-bucket",
+      "available": true,
+      "featured": false,
+      "rating": 4.8,
+      "preparationTime": 20,
+      "sortOrder": 1,
+      "variants": [
+        {
+          "id": "chicken-bucket-v-mild",
+          "name": "Mild",
+          "priceDelta": 0
+        },
+        {
+          "id": "chicken-bucket-v-hot",
+          "name": "Spicy",
+          "priceDelta": 0
+        }
+      ],
+      "addons": [
+        {
+          "id": "chicken-bucket-a-dip",
+          "name": "Garlic Mayo Dip",
+          "price": 60
+        },
+        {
+          "id": "chicken-bucket-a-bun",
+          "name": "Dinner Bun",
+          "price": 40
+        },
+        {
+          "id": "chicken-bucket-a-fries",
+          "name": "Regular Fries",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "hot-wings",
+      "categoryId": "fried-chicken",
+      "name": "Crispy Chicken Wings (6 pcs)",
+      "description": "Crunchy wings tossed in our house hot sauce, served with a cooling dip.",
+      "price": 399,
+      "salePrice": null,
+      "image": "photo:chicken-wings",
+      "available": true,
+      "featured": false,
+      "rating": 4.5,
+      "preparationTime": 12,
+      "sortOrder": 2,
+      "variants": [],
+      "addons": [
+        {
+          "id": "hot-wings-a-dip",
+          "name": "Garlic Mayo Dip",
+          "price": 60
+        },
+        {
+          "id": "hot-wings-a-bun",
+          "name": "Dinner Bun",
+          "price": 40
+        },
+        {
+          "id": "hot-wings-a-fries",
+          "name": "Regular Fries",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "chicken-nuggets",
+      "categoryId": "fried-chicken",
+      "name": "Chicken Nuggets (6 pcs)",
+      "description": "Tender bite-sized nuggets with a dip of your choice.",
+      "price": 349,
+      "salePrice": null,
+      "image": "photo:chicken-nuggets",
+      "available": true,
+      "featured": false,
+      "rating": 4.4,
+      "preparationTime": 10,
+      "sortOrder": 3,
+      "variants": [],
+      "addons": [
+        {
+          "id": "chicken-nuggets-a-dip",
+          "name": "Garlic Mayo Dip",
+          "price": 60
+        },
+        {
+          "id": "chicken-nuggets-a-bun",
+          "name": "Dinner Bun",
+          "price": 40
+        },
+        {
+          "id": "chicken-nuggets-a-fries",
+          "name": "Regular Fries",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "chicken-strips",
+      "categoryId": "fried-chicken",
+      "name": "Chicken Strips (5 pcs)",
+      "description": "Hand-breaded strips of chicken breast, crispy outside and juicy inside.",
+      "price": 429,
+      "salePrice": null,
+      "image": "photo:chicken-strips",
+      "available": true,
+      "featured": false,
+      "rating": 4.6,
+      "preparationTime": 10,
+      "sortOrder": 4,
+      "variants": [],
+      "addons": [
+        {
+          "id": "chicken-strips-a-dip",
+          "name": "Garlic Mayo Dip",
+          "price": 60
+        },
+        {
+          "id": "chicken-strips-a-bun",
+          "name": "Dinner Bun",
+          "price": 40
+        },
+        {
+          "id": "chicken-strips-a-fries",
+          "name": "Regular Fries",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "regular-fries",
+      "categoryId": "fries-sides",
+      "name": "Regular Fries",
+      "description": "Golden, crispy and lightly salted.",
+      "price": 150,
+      "salePrice": null,
+      "image": "photo:regular-fries",
+      "available": true,
+      "featured": false,
+      "rating": 4.5,
+      "preparationTime": 6,
+      "sortOrder": 0,
+      "variants": [
+        {
+          "id": "regular-fries-v-reg",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "regular-fries-v-large",
+          "name": "Large",
+          "priceDelta": 100
+        }
+      ],
+      "addons": [
+        {
+          "id": "regular-fries-a-cheese",
+          "name": "Cheese Sauce",
+          "price": 70
+        },
+        {
+          "id": "regular-fries-a-dip",
+          "name": "Garlic Mayo Dip",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "masala-fries",
+      "categoryId": "fries-sides",
+      "name": "Masala Fries",
+      "description": "Crispy fries tossed in our tangy chaat masala.",
+      "price": 199,
+      "salePrice": null,
+      "image": "photo:masala-fries",
+      "available": true,
+      "featured": false,
+      "rating": 4.6,
+      "preparationTime": 6,
+      "sortOrder": 1,
+      "variants": [
+        {
+          "id": "masala-fries-v-reg",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "masala-fries-v-large",
+          "name": "Large",
+          "priceDelta": 100
+        }
+      ],
+      "addons": [
+        {
+          "id": "masala-fries-a-cheese",
+          "name": "Cheese Sauce",
+          "price": 70
+        },
+        {
+          "id": "masala-fries-a-dip",
+          "name": "Garlic Mayo Dip",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "cheese-fries",
+      "categoryId": "fries-sides",
+      "name": "Cheese Fries",
+      "description": "Crispy fries smothered in warm, velvety cheese sauce.",
+      "price": 299,
+      "salePrice": null,
+      "image": "photo:cheese-fries",
+      "available": true,
+      "featured": false,
+      "rating": 4.6,
+      "preparationTime": 6,
+      "sortOrder": 2,
+      "variants": [
+        {
+          "id": "cheese-fries-v-reg",
+          "name": "Regular",
+          "priceDelta": 0
+        },
+        {
+          "id": "cheese-fries-v-large",
+          "name": "Large",
+          "priceDelta": 100
+        }
+      ],
+      "addons": [
+        {
+          "id": "cheese-fries-a-cheese",
+          "name": "Cheese Sauce",
+          "price": 70
+        },
+        {
+          "id": "cheese-fries-a-dip",
+          "name": "Garlic Mayo Dip",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "loaded-fries",
+      "categoryId": "fries-sides",
+      "name": "Loaded Fries",
+      "description": "Fries piled with cheese sauce, crispy chicken chunks, jalapeños and spicy mayo.",
+      "price": 449,
+      "salePrice": null,
+      "image": "photo:loaded-fries",
+      "available": true,
+      "featured": true,
+      "rating": 4.7,
+      "preparationTime": 8,
+      "sortOrder": 3,
+      "variants": [],
+      "addons": [
+        {
+          "id": "loaded-fries-a-cheese",
+          "name": "Cheese Sauce",
+          "price": 70
+        },
+        {
+          "id": "loaded-fries-a-dip",
+          "name": "Garlic Mayo Dip",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "coleslaw",
+      "categoryId": "fries-sides",
+      "name": "Creamy Coleslaw",
+      "description": "Fresh cabbage and carrots in a light, creamy dressing.",
+      "price": 99,
+      "salePrice": null,
+      "image": "photo:coleslaw",
+      "available": true,
+      "featured": false,
+      "rating": 4.3,
+      "preparationTime": 2,
+      "sortOrder": 4,
+      "variants": [],
+      "addons": []
+    },
+    {
+      "id": "garlic-mayo-dip",
+      "categoryId": "fries-sides",
+      "name": "Garlic Mayo Dip",
+      "description": "Our house garlic mayo, perfect with everything.",
+      "price": 60,
+      "salePrice": null,
+      "image": "photo:garlic-mayo",
+      "available": true,
+      "featured": false,
+      "rating": 4.6,
+      "preparationTime": 1,
+      "sortOrder": 5,
+      "variants": [],
+      "addons": []
+    },
+    {
+      "id": "soft-drink",
+      "categoryId": "drinks",
+      "name": "Cold Drink",
+      "description": "Ice-cold fizzy drink of your choice.",
+      "price": 100,
+      "salePrice": null,
+      "image": "photo:cold-drink",
+      "available": true,
+      "featured": false,
+      "rating": 4.5,
+      "preparationTime": 1,
+      "sortOrder": 0,
+      "variants": [
+        {
+          "id": "soft-drink-v-can",
+          "name": "345 ml",
+          "priceDelta": 0
+        },
+        {
+          "id": "soft-drink-v-big",
+          "name": "1.5 Litre",
+          "priceDelta": 150
+        }
+      ],
+      "addons": []
+    },
+    {
+      "id": "mint-margarita",
+      "categoryId": "drinks",
+      "name": "Mint Margarita",
+      "description": "Fresh mint, lemon and crushed ice blended to order.",
+      "price": 249,
+      "salePrice": null,
+      "image": "photo:mint-margarita",
+      "available": true,
+      "featured": false,
+      "rating": 4.7,
+      "preparationTime": 4,
+      "sortOrder": 1,
+      "variants": [],
+      "addons": []
+    },
+    {
+      "id": "fresh-juice",
+      "categoryId": "drinks",
+      "name": "Fresh Juice",
+      "description": "Freshly squeezed seasonal juice — orange, mango or apple.",
+      "price": 279,
+      "salePrice": null,
+      "image": "photo:fresh-juice",
+      "available": true,
+      "featured": false,
+      "rating": 4.7,
+      "preparationTime": 4,
+      "sortOrder": 2,
+      "variants": [
+        {
+          "id": "fresh-juice-v-orange",
+          "name": "Orange",
+          "priceDelta": 0
+        },
+        {
+          "id": "fresh-juice-v-mango",
+          "name": "Mango",
+          "priceDelta": 30
+        },
+        {
+          "id": "fresh-juice-v-apple",
+          "name": "Apple",
+          "priceDelta": 0
+        }
+      ],
+      "addons": []
+    },
+    {
+      "id": "chocolate-shake",
+      "categoryId": "drinks",
+      "name": "Milkshake",
+      "description": "Thick hand-spun shake topped with whipped cream.",
+      "price": 349,
+      "salePrice": null,
+      "image": "photo:milkshake",
+      "available": true,
+      "featured": false,
+      "rating": 4.6,
+      "preparationTime": 5,
+      "sortOrder": 3,
+      "variants": [
+        {
+          "id": "chocolate-shake-v-choc",
+          "name": "Chocolate",
+          "priceDelta": 0
+        },
+        {
+          "id": "chocolate-shake-v-straw",
+          "name": "Strawberry",
+          "priceDelta": 0
+        },
+        {
+          "id": "chocolate-shake-v-oreo",
+          "name": "Oreo",
+          "priceDelta": 50
+        }
+      ],
+      "addons": []
+    },
+    {
+      "id": "mineral-water",
+      "categoryId": "drinks",
+      "name": "Mineral Water",
+      "description": "500 ml bottled water.",
+      "price": 80,
+      "salePrice": null,
+      "image": "photo:mineral-water",
+      "available": true,
+      "featured": false,
+      "rating": 4.5,
+      "preparationTime": 1,
+      "sortOrder": 4,
+      "variants": [],
+      "addons": []
+    },
+    {
+      "id": "deal-zinger-combo",
+      "categoryId": "deals",
+      "name": "Zinger Combo",
+      "description": "Classic Zinger Burger, regular fries and a 345 ml drink.",
+      "price": 749,
+      "salePrice": 699,
+      "image": "photo:deal-zinger-combo",
+      "available": true,
+      "featured": true,
+      "rating": 4.8,
+      "preparationTime": 12,
+      "sortOrder": 0,
+      "variants": [],
+      "addons": [
+        {
+          "id": "deal-zinger-combo-a-drink",
+          "name": "Upgrade to 1.5 L Drink",
+          "price": 150
+        },
+        {
+          "id": "deal-zinger-combo-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "deal-student",
+      "categoryId": "deals",
+      "name": "Student Deal",
+      "description": "Crispy Chicken Burger, regular fries and a 345 ml drink.",
+      "price": 499,
+      "salePrice": null,
+      "image": "photo:deal-student",
+      "available": true,
+      "featured": false,
+      "rating": 4.5,
+      "preparationTime": 10,
+      "sortOrder": 1,
+      "variants": [],
+      "addons": [
+        {
+          "id": "deal-student-a-drink",
+          "name": "Upgrade to 1.5 L Drink",
+          "price": 150
+        },
+        {
+          "id": "deal-student-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "deal-shawarma-duo",
+      "categoryId": "deals",
+      "name": "Shawarma Duo",
+      "description": "Two Chicken Shawarmas, regular fries and two 345 ml drinks.",
+      "price": 849,
+      "salePrice": 799,
+      "image": "photo:deal-shawarma-duo",
+      "available": true,
+      "featured": false,
+      "rating": 4.6,
+      "preparationTime": 10,
+      "sortOrder": 2,
+      "variants": [],
+      "addons": [
+        {
+          "id": "deal-shawarma-duo-a-drink",
+          "name": "Upgrade to 1.5 L Drink",
+          "price": 150
+        },
+        {
+          "id": "deal-shawarma-duo-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "deal-family-feast",
+      "categoryId": "deals",
+      "name": "Family Feast",
+      "description": "Medium pizza, 4 pcs fried chicken, 2 Zinger burgers, large fries and a 1.5 L drink.",
+      "price": 2899,
+      "salePrice": 2599,
+      "image": "photo:deal-family-feast",
+      "available": true,
+      "featured": true,
+      "rating": 4.9,
+      "preparationTime": 25,
+      "sortOrder": 3,
+      "variants": [],
+      "addons": [
+        {
+          "id": "deal-family-feast-a-drink",
+          "name": "Upgrade to 1.5 L Drink",
+          "price": 150
+        },
+        {
+          "id": "deal-family-feast-a-cheese",
+          "name": "Extra Cheese",
+          "price": 80
+        }
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "id": "offer-zinger-combo",
+      "title": "Zinger + Fries + Drink",
+      "description": "Our most-ordered combo for one, at a combo price.",
+      "type": "combo",
+      "value": 699,
+      "code": null,
+      "minOrder": 0,
+      "productId": "deal-zinger-combo",
+      "image": "photo:deal-zinger-combo",
+      "active": true,
+      "badge": "Best value"
+    },
+    {
+      "id": "offer-family-feast",
+      "title": "Family Feast",
+      "description": "Pizza, chicken, burgers, fries and a big drink for 4–5 people.",
+      "type": "combo",
+      "value": 2599,
+      "code": null,
+      "minOrder": 0,
+      "productId": "deal-family-feast",
+      "image": "photo:deal-family-feast",
+      "active": true,
+      "badge": "Save Rs. 300"
+    },
+    {
+      "id": "offer-pabbi10",
+      "title": "10% off your order",
+      "description": "Use code PABBI10 on orders of Rs. 1,000 or more.",
+      "type": "percentage",
+      "value": 10,
+      "code": "PABBI10",
+      "minOrder": 1000,
+      "productId": null,
+      "image": "photo:pepperoni-pizza",
+      "active": true,
+      "badge": "Promo code"
+    },
+    {
+      "id": "offer-flat150",
+      "title": "Rs. 150 off big orders",
+      "description": "Taken off automatically when your order reaches Rs. 2,500.",
+      "type": "fixed",
+      "value": 150,
+      "code": null,
+      "minOrder": 2500,
+      "productId": null,
+      "image": "photo:chicken-bucket",
+      "active": true,
+      "badge": "Automatic"
+    },
+    {
+      "id": "offer-shawarma-15",
+      "title": "15% off Chicken Shawarma",
+      "description": "Every Chicken Shawarma is 15% off while this offer runs.",
+      "type": "product_deal",
+      "value": 15,
+      "code": null,
+      "minOrder": 0,
+      "productId": "chicken-shawarma",
+      "image": "photo:chicken-shawarma",
+      "active": true,
+      "badge": "Limited time"
+    }
+  ],
+  "settings": {
+    "name": "AT Naveed Fast Food",
+    "tagline": "Freshly prepared. Deliciously served. Your favourite food, just a few clicks away.",
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "addressLine": "Pabbi, Khyber Pakhtunkhwa, Pakistan",
+    "mapQuery": "Pabbi, Khyber Pakhtunkhwa, Pakistan",
+    "openingHours": [
+      {
+        "days": "Monday to Thursday",
+        "hours": "12:00 PM – 12:00 AM"
+      },
+      {
+        "days": "Friday",
+        "hours": "2:00 PM – 1:00 AM"
+      },
+      {
+        "days": "Saturday and Sunday",
+        "hours": "12:00 PM – 1:00 AM"
+      }
+    ],
+    "deliveryFee": 100,
+    "freeDeliveryAbove": 1500,
+    "minOrder": 300,
+    "estimatedDeliveryMins": 40,
+    "socials": {
+      "facebook": "",
+      "instagram": "",
+      "tiktok": ""
+    },
+    "acceptingOrders": true
+  }
+}
